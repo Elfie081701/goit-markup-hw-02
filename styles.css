@@ -53,8 +53,8 @@
 }
 
 .contact-info .info {
-  color: var(--slate, #434455);
   /* Body */
+  color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -71,9 +71,9 @@
   flex-shrink: 0;
 }
 .h1-title {
+  /* Header 1 */
   color: var(--white, #fff);
   text-align: center;
-  /* Header 1 */
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
@@ -82,6 +82,7 @@
   letter-spacing: 1.12px;
 }
 .button {
+  text-align: center;
   cursor: pointer;
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
@@ -136,8 +137,8 @@
   letter-spacing: 0.4px;
 }
 .position {
-  color: var(--slate, #434455);
   /* Body */
+  color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -160,6 +161,7 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .studio2 {
   color: var(--cloud, #f4f4fd);
@@ -170,6 +172,7 @@
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .vission {
   color: var(--cloud, #f4f4fd);
