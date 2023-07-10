@@ -30,8 +30,8 @@
 }
 .navbar,
 .pages {
-  color: var(--navyblue, #2e2f42);
   /* Body Medium */
+  color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -46,7 +46,7 @@
 
 .navbar .pages:hover,
 .navbar .pages:focus,
-.navbar .pages .currentoption,
+.navbar .pages.currentoption,
 .contact-info .info:hover,
 .contact-info .info:focus {
   color: var(--crimson);
