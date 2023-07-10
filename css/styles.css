@@ -164,6 +164,7 @@
   text-decoration: none;
 }
 .studio2 {
+  text-decoration: none;
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
@@ -171,12 +172,11 @@
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
+  text-transform: uppercase;}
+  
 .vission {
+   /* Body */
   color: var(--cloud, #f4f4fd);
-  /* Body */
   display: flex;
   width: 264px;
   flex-direction: column;
