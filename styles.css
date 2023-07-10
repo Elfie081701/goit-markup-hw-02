@@ -42,14 +42,13 @@
   list-style-type: none;
 }
 
-.navbar
-.pages:hover,
-.navbar
-.pages:focus,
-.navbar
-.pages
-.currentoption {color: var(--crimson);}
+.navbar .pages:hover,
+.navbar .pages:focus,
+.navbar .pages .currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus
+   {color: var(--crimson);}
 
-.contact_info{
-    color: var(--slate, #434455);
+.contact-info .info
+{color: var(--slate, #434455);
 }
