@@ -81,10 +81,11 @@
 }
 
 .btn.primary:hover,
-.btn.primary:focus{
+.btn.primary:focus {
   color: var(--maroon, #800000);
 }
 .btn.primary {
+  /*porfolio.html*/
   display: flex;
   padding: 12px 24px;
   align-items: flex-start;
@@ -103,6 +104,7 @@
   letter-spacing: 0.64px;
 }
 .btn {
+   /*porfolio.html*/
   display: flex;
   padding: 12px 24px;
   justify-content: center;
@@ -170,6 +172,28 @@
 .desclist {
   /* Paragraph */
   color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.picture .caption {
+  color: var(--navyblue, #2e2f42);
+  /* section2 portfolio.html*/
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.meaning {
+  color: var(--slate, #434455);
+  /* Body portolio.html*/
+  text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
