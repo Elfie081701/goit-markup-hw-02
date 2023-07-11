@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
 
-:root{
+:root {
   /*Colors */
   --iriscolor: #4d5ae5;
   --navyblue: #2e2f42;
   --deepskyblue: #00bfff;
   --slate: #434455;
   --white: #fff;
-  --greenyellow: #adff2f;
   --cloud: #f4f4fd;
+  --ocean: #404bbf;
+  -maroon: #800000;
 }
-
 
 .logo-link {
   list-style: none;
@@ -67,7 +67,7 @@
 .contact-menu .item:hover,
 .contact-menu .item:focus {
   color: var(--deepskyblue, #00bfff);
-} 
+}
 
 .contact-menu .item {
   text-decoration: none;
@@ -78,6 +78,47 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.btn.primary:hover,
+.btn.primary:focus{
+  color: var(--maroon, #800000);
+}
+.btn.primary {
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  color: var(--white, #fff);
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+.btn {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
 }
 
 .bg-section1 {
